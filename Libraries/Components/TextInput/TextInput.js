@@ -210,6 +210,36 @@ const TextInput = React.createClass({
      */
     editable: PropTypes.bool,
     /**
+     * 
+     */
+    contentType: PropTypes.oneOf([
+      // iOS-only
+      'UITextContentTypeURL',
+      'UITextContentTypeAddressCity',
+      'UITextContentTypeAddressState',
+      'UITextContentTypeAddressCityAndState',
+      'UITextContentTypeCountryName',
+      'UITextContentTypeCreditCardNumber',
+      'UITextContentTypeEmailAddress',
+      'family-name',
+      'full-street-address',
+      'given-name',
+      'job-title',
+      'location',
+      'middle-name',
+      'name',
+      'name-prefix',
+      'name-suffix',
+      'nickname',
+      'postal-code',
+      'street-address-line-one',
+      'street-address-line-two',
+      'sublocality',
+      'phone-number',
+      'UITextContentTypeUsername',
+      'UITextContentTypePassword'
+    ]),
+    /**
      * Determines which keyboard to open, e.g.`numeric`.
      *
      * The following values work across platforms:
