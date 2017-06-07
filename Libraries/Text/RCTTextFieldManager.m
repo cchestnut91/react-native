@@ -46,6 +46,7 @@ RCT_REMAP_VIEW_PROPERTY(clearButtonMode, textField.clearButtonMode, UITextFieldV
 RCT_REMAP_VIEW_PROPERTY(clearTextOnFocus, textField.clearsOnBeginEditing, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(selectTextOnFocus, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(blurOnSubmit, BOOL)
+RCT_REMAP_VIEW_PROPERTY(textContentType, textField.contentType, UITextContentType)
 RCT_REMAP_VIEW_PROPERTY(keyboardType, textField.keyboardType, UIKeyboardType)
 RCT_REMAP_VIEW_PROPERTY(keyboardAppearance, textField.keyboardAppearance, UIKeyboardAppearance)
 RCT_EXPORT_VIEW_PROPERTY(onSelectionChange, RCTDirectEventBlock)
